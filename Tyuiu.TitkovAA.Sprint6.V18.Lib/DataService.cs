@@ -8,5 +8,6 @@ namespace Tyuiu.TitkovAA.Sprint6.V18.Lib
 {
     public class DataService
     {
+
     }
 }

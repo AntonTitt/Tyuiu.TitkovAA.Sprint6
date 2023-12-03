@@ -9,6 +9,7 @@ namespace Tyuiu.TitkovAA.Sprint6.V18.Test
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }

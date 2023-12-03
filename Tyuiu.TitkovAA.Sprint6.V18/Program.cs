@@ -14,9 +14,11 @@ namespace Tyuiu.TitkovAA.Sprint6.V18
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormMain());
+
         }
     }
 }
