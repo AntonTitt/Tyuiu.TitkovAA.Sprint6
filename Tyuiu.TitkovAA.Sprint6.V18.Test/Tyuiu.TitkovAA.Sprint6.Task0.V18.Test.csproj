@@ -49,9 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Tyuiu.TitkovAA.Sprint6.Task0.V18.Test\DataServiceTest.cs">
-      <Link>DataServiceTest.cs</Link>
-    </Compile>
+    <Compile Include="DataServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
