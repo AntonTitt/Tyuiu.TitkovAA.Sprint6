@@ -30,9 +30,9 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain_TAA));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBox_task_TAA = new System.Windows.Forms.GroupBox();
             this.pictureBox_Task_TAA = new System.Windows.Forms.PictureBox();
             this.textBox_Task_TAA = new System.Windows.Forms.TextBox();
@@ -44,16 +44,16 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             this.step_end_TAA = new System.Windows.Forms.Label();
             this.step_start_TAA = new System.Windows.Forms.Label();
             this.groupBox_output_TAA = new System.Windows.Forms.GroupBox();
+            this.chart_Function_TAA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridView_out_TAA = new System.Windows.Forms.DataGridView();
             this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Y = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.chart_Function_TAA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox_task_TAA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Task_TAA)).BeginInit();
             this.groupBox_Input_TAA.SuspendLayout();
             this.groupBox_output_TAA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_out_TAA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart_Function_TAA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_out_TAA)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox_task_TAA
@@ -71,7 +71,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             // 
             this.pictureBox_Task_TAA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Task_TAA.Image")));
             this.pictureBox_Task_TAA.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox_Task_TAA.InitialImage")));
-            this.pictureBox_Task_TAA.Location = new System.Drawing.Point(17, 85);
+            this.pictureBox_Task_TAA.Location = new System.Drawing.Point(17, 95);
             this.pictureBox_Task_TAA.Name = "pictureBox_Task_TAA";
             this.pictureBox_Task_TAA.Size = new System.Drawing.Size(311, 52);
             this.pictureBox_Task_TAA.TabIndex = 1;
@@ -170,6 +170,25 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             this.groupBox_output_TAA.TabStop = false;
             this.groupBox_output_TAA.Text = "Вывод данных";
             // 
+            // chart_Function_TAA
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chart_Function_TAA.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chart_Function_TAA.Legends.Add(legend1);
+            this.chart_Function_TAA.Location = new System.Drawing.Point(115, 19);
+            this.chart_Function_TAA.Name = "chart_Function_TAA";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart_Function_TAA.Series.Add(series1);
+            this.chart_Function_TAA.Size = new System.Drawing.Size(478, 394);
+            this.chart_Function_TAA.TabIndex = 1;
+            this.chart_Function_TAA.Text = "chart1";
+            // 
             // dataGridView_out_TAA
             // 
             this.dataGridView_out_TAA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -196,25 +215,6 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             this.Y.ReadOnly = true;
             this.Y.Width = 50;
             // 
-            // chart_Function_TAA
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.chart_Function_TAA.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chart_Function_TAA.Legends.Add(legend2);
-            this.chart_Function_TAA.Location = new System.Drawing.Point(115, 19);
-            this.chart_Function_TAA.Name = "chart_Function_TAA";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart_Function_TAA.Series.Add(series2);
-            this.chart_Function_TAA.Size = new System.Drawing.Size(478, 394);
-            this.chart_Function_TAA.TabIndex = 1;
-            this.chart_Function_TAA.Text = "chart1";
-            // 
             // FormMain_TAA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -234,8 +234,8 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             this.groupBox_Input_TAA.ResumeLayout(false);
             this.groupBox_Input_TAA.PerformLayout();
             this.groupBox_output_TAA.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_out_TAA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart_Function_TAA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_out_TAA)).EndInit();
             this.ResumeLayout(false);
 
         }

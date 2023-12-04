@@ -14,6 +14,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19.Test
             int length = stopVal - StartVal + 1;
             double[] valexpectarr = new double[length];
             valexpectarr = new double[length];
+
             valexpectarr[0] = -15.44;
             valexpectarr[1] = -10.93;
             valexpectarr[2] = -7.22;

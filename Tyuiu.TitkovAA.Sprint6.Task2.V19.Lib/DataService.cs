@@ -31,6 +31,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19.Lib
                 }
                 c++;
             }
+
             return valarray;
         }
     }
