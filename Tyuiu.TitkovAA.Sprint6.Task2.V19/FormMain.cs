@@ -30,6 +30,8 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             try
             {
 
+                
+
                 int startValue = Convert.ToInt32(Textbox_Inputstart_TAA.Text);
                 int stopValue = Convert.ToInt32(Textbox_inputend_TAA.Text);
 

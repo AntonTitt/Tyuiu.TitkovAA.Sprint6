@@ -30,9 +30,9 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain_TAA));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBox_task_TAA = new System.Windows.Forms.GroupBox();
             this.pictureBox_Task_TAA = new System.Windows.Forms.PictureBox();
             this.textBox_Task_TAA = new System.Windows.Forms.TextBox();
@@ -172,19 +172,19 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             // 
             // chart_Function_TAA
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart_Function_TAA.ChartAreas.Add(chartArea1);
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chart_Function_TAA.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chart_Function_TAA.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chart_Function_TAA.Legends.Add(legend2);
             this.chart_Function_TAA.Location = new System.Drawing.Point(115, 19);
             this.chart_Function_TAA.Name = "chart_Function_TAA";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart_Function_TAA.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart_Function_TAA.Series.Add(series2);
             this.chart_Function_TAA.Size = new System.Drawing.Size(478, 394);
             this.chart_Function_TAA.TabIndex = 1;
             this.chart_Function_TAA.Text = "chart1";
@@ -227,7 +227,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             this.MaximizeBox = false;
             this.Name = "FormMain_TAA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Спринт 6 | Таск 2 | Париант 19 | Титков А. А.";
+            this.Text = "Спринт 6 | Таск 2 | Вариант 19 | Титков А. А.";
             this.groupBox_task_TAA.ResumeLayout(false);
             this.groupBox_task_TAA.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Task_TAA)).EndInit();
