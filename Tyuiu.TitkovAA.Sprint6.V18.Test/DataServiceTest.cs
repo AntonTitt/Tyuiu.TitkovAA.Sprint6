@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using Tyuiu.TitkovAA.Sprint6.V18.Lib;
 
 namespace Tyuiu.TitkovAA.Sprint6.V18.Test
 {
@@ -9,7 +10,8 @@ namespace Tyuiu.TitkovAA.Sprint6.V18.Test
         [TestMethod]
         public void TestMethod1()
         {
-
+            DataService dt = new DataService();
+            Assert.AreEqual(1.056, dt.Calculate(3));
         }
     }
 }

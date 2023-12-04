@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Tyuiu.TitkovAA.Sprint6.V18.Lib;
 namespace Tyuiu.TitkovAA.Sprint6.V18
 {
     static class Program
@@ -17,7 +17,10 @@ namespace Tyuiu.TitkovAA.Sprint6.V18
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormMain_TAA());
+
+            
+
 
         }
     }
