@@ -194,6 +194,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task1.V29
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain_TAA";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск1 | Вариант 29 | Титков А. А.";
             this.groupBox_Task_TAA.ResumeLayout(false);
             this.groupBox_Task_TAA.PerformLayout();
