@@ -58,7 +58,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task1.V29
 
         private void button_About_TAA_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Task0 выполнил студент группы РПСб 23-1 Титков Антон Алексеевич", "Сообщение");
+            MessageBox.Show("Task1 выполнил студент группы РПСб 23-1 Титков Антон Алексеевич", "Сообщение");
         }
     }
 }
