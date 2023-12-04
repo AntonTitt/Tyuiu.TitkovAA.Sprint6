@@ -25,6 +25,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19.Test
             valexpectarr[8] = 10.04;
             valexpectarr[9] = 12.72;
             valexpectarr[10] = 14.68;
+
             CollectionAssert.AreEqual(valexpectarr, dt.GetMassFunction(StartVal, stopVal));
 
         }
