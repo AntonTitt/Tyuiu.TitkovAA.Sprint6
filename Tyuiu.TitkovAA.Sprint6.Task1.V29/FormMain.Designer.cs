@@ -31,22 +31,22 @@ namespace Tyuiu.TitkovAA.Sprint6.Task1.V29
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain_TAA));
             this.groupBox_Task_TAA = new System.Windows.Forms.GroupBox();
+            this.pictureBox_Function_TAA = new System.Windows.Forms.PictureBox();
             this.Task_textbox_TAA = new System.Windows.Forms.TextBox();
             this.groupBox_Input_TAA = new System.Windows.Forms.GroupBox();
-            this.step_start_TAA = new System.Windows.Forms.Label();
-            this.step_end_TAA = new System.Windows.Forms.Label();
-            this.Textbox_Inputstart_TAA = new System.Windows.Forms.TextBox();
-            this.Textbox_inputend_TAA = new System.Windows.Forms.TextBox();
-            this.Groupbox_output_TAA = new System.Windows.Forms.GroupBox();
-            this.label_result_TAA = new System.Windows.Forms.Label();
-            this.textBox_output_TAA = new System.Windows.Forms.TextBox();
-            this.pictureBox_Function_TAA = new System.Windows.Forms.PictureBox();
-            this.button_Do_TAA = new System.Windows.Forms.Button();
             this.button_About_TAA = new System.Windows.Forms.Button();
+            this.button_Do_TAA = new System.Windows.Forms.Button();
+            this.Textbox_inputend_TAA = new System.Windows.Forms.TextBox();
+            this.Textbox_Inputstart_TAA = new System.Windows.Forms.TextBox();
+            this.step_end_TAA = new System.Windows.Forms.Label();
+            this.step_start_TAA = new System.Windows.Forms.Label();
+            this.Groupbox_output_TAA = new System.Windows.Forms.GroupBox();
+            this.textBox_output_TAA = new System.Windows.Forms.TextBox();
+            this.label_result_TAA = new System.Windows.Forms.Label();
             this.groupBox_Task_TAA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Function_TAA)).BeginInit();
             this.groupBox_Input_TAA.SuspendLayout();
             this.Groupbox_output_TAA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Function_TAA)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox_Task_TAA
@@ -59,6 +59,16 @@ namespace Tyuiu.TitkovAA.Sprint6.Task1.V29
             this.groupBox_Task_TAA.TabIndex = 0;
             this.groupBox_Task_TAA.TabStop = false;
             this.groupBox_Task_TAA.Text = "Условие";
+            // 
+            // pictureBox_Function_TAA
+            // 
+            this.pictureBox_Function_TAA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Function_TAA.Image")));
+            this.pictureBox_Function_TAA.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox_Function_TAA.InitialImage")));
+            this.pictureBox_Function_TAA.Location = new System.Drawing.Point(6, 70);
+            this.pictureBox_Function_TAA.Name = "pictureBox_Function_TAA";
+            this.pictureBox_Function_TAA.Size = new System.Drawing.Size(424, 50);
+            this.pictureBox_Function_TAA.TabIndex = 1;
+            this.pictureBox_Function_TAA.TabStop = false;
             // 
             // Task_textbox_TAA
             // 
@@ -88,78 +98,16 @@ namespace Tyuiu.TitkovAA.Sprint6.Task1.V29
             this.groupBox_Input_TAA.TabStop = false;
             this.groupBox_Input_TAA.Text = "Ввод данных";
             // 
-            // step_start_TAA
+            // button_About_TAA
             // 
-            this.step_start_TAA.AutoSize = true;
-            this.step_start_TAA.Location = new System.Drawing.Point(25, 31);
-            this.step_start_TAA.Name = "step_start_TAA";
-            this.step_start_TAA.Size = new System.Drawing.Size(64, 13);
-            this.step_start_TAA.TabIndex = 0;
-            this.step_start_TAA.Text = "Старт шага";
-            // 
-            // step_end_TAA
-            // 
-            this.step_end_TAA.AutoSize = true;
-            this.step_end_TAA.Location = new System.Drawing.Point(131, 31);
-            this.step_end_TAA.Name = "step_end_TAA";
-            this.step_end_TAA.Size = new System.Drawing.Size(66, 13);
-            this.step_end_TAA.TabIndex = 1;
-            this.step_end_TAA.Text = "Конец шага";
-            // 
-            // Textbox_Inputstart_TAA
-            // 
-            this.Textbox_Inputstart_TAA.Location = new System.Drawing.Point(28, 47);
-            this.Textbox_Inputstart_TAA.Name = "Textbox_Inputstart_TAA";
-            this.Textbox_Inputstart_TAA.Size = new System.Drawing.Size(100, 20);
-            this.Textbox_Inputstart_TAA.TabIndex = 2;
-            // 
-            // Textbox_inputend_TAA
-            // 
-            this.Textbox_inputend_TAA.Location = new System.Drawing.Point(134, 47);
-            this.Textbox_inputend_TAA.Name = "Textbox_inputend_TAA";
-            this.Textbox_inputend_TAA.Size = new System.Drawing.Size(100, 20);
-            this.Textbox_inputend_TAA.TabIndex = 3;
-            // 
-            // Groupbox_output_TAA
-            // 
-            this.Groupbox_output_TAA.Controls.Add(this.textBox_output_TAA);
-            this.Groupbox_output_TAA.Controls.Add(this.label_result_TAA);
-            this.Groupbox_output_TAA.Location = new System.Drawing.Point(566, 29);
-            this.Groupbox_output_TAA.Name = "Groupbox_output_TAA";
-            this.Groupbox_output_TAA.Size = new System.Drawing.Size(222, 409);
-            this.Groupbox_output_TAA.TabIndex = 2;
-            this.Groupbox_output_TAA.TabStop = false;
-            this.Groupbox_output_TAA.Text = "Вывод данных";
-            // 
-            // label_result_TAA
-            // 
-            this.label_result_TAA.AutoSize = true;
-            this.label_result_TAA.Location = new System.Drawing.Point(6, 16);
-            this.label_result_TAA.Name = "label_result_TAA";
-            this.label_result_TAA.Size = new System.Drawing.Size(62, 13);
-            this.label_result_TAA.TabIndex = 0;
-            this.label_result_TAA.Text = "Результат:";
-            // 
-            // textBox_output_TAA
-            // 
-            this.textBox_output_TAA.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox_output_TAA.Location = new System.Drawing.Point(9, 31);
-            this.textBox_output_TAA.Multiline = true;
-            this.textBox_output_TAA.Name = "textBox_output_TAA";
-            this.textBox_output_TAA.ReadOnly = true;
-            this.textBox_output_TAA.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox_output_TAA.Size = new System.Drawing.Size(207, 372);
-            this.textBox_output_TAA.TabIndex = 1;
-            // 
-            // pictureBox_Function_TAA
-            // 
-            this.pictureBox_Function_TAA.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Function_TAA.Image")));
-            this.pictureBox_Function_TAA.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox_Function_TAA.InitialImage")));
-            this.pictureBox_Function_TAA.Location = new System.Drawing.Point(6, 70);
-            this.pictureBox_Function_TAA.Name = "pictureBox_Function_TAA";
-            this.pictureBox_Function_TAA.Size = new System.Drawing.Size(424, 50);
-            this.pictureBox_Function_TAA.TabIndex = 1;
-            this.pictureBox_Function_TAA.TabStop = false;
+            this.button_About_TAA.BackColor = System.Drawing.SystemColors.Control;
+            this.button_About_TAA.Location = new System.Drawing.Point(360, 19);
+            this.button_About_TAA.Name = "button_About_TAA";
+            this.button_About_TAA.Size = new System.Drawing.Size(75, 75);
+            this.button_About_TAA.TabIndex = 5;
+            this.button_About_TAA.Text = "Справка";
+            this.button_About_TAA.UseVisualStyleBackColor = false;
+            this.button_About_TAA.Click += new System.EventHandler(this.button_About_TAA_Click);
             // 
             // button_Do_TAA
             // 
@@ -172,16 +120,68 @@ namespace Tyuiu.TitkovAA.Sprint6.Task1.V29
             this.button_Do_TAA.UseVisualStyleBackColor = false;
             this.button_Do_TAA.Click += new System.EventHandler(this.button_Do_TAA_Click);
             // 
-            // button_About_TAA
+            // Textbox_inputend_TAA
             // 
-            this.button_About_TAA.BackColor = System.Drawing.SystemColors.Control;
-            this.button_About_TAA.Location = new System.Drawing.Point(360, 19);
-            this.button_About_TAA.Name = "button_About_TAA";
-            this.button_About_TAA.Size = new System.Drawing.Size(75, 75);
-            this.button_About_TAA.TabIndex = 5;
-            this.button_About_TAA.Text = "Справка";
-            this.button_About_TAA.UseVisualStyleBackColor = false;
-            this.button_About_TAA.Click += new System.EventHandler(this.button_About_TAA_Click);
+            this.Textbox_inputend_TAA.Location = new System.Drawing.Point(134, 47);
+            this.Textbox_inputend_TAA.Name = "Textbox_inputend_TAA";
+            this.Textbox_inputend_TAA.Size = new System.Drawing.Size(100, 20);
+            this.Textbox_inputend_TAA.TabIndex = 3;
+            // 
+            // Textbox_Inputstart_TAA
+            // 
+            this.Textbox_Inputstart_TAA.Location = new System.Drawing.Point(28, 47);
+            this.Textbox_Inputstart_TAA.Name = "Textbox_Inputstart_TAA";
+            this.Textbox_Inputstart_TAA.Size = new System.Drawing.Size(100, 20);
+            this.Textbox_Inputstart_TAA.TabIndex = 2;
+            // 
+            // step_end_TAA
+            // 
+            this.step_end_TAA.AutoSize = true;
+            this.step_end_TAA.Location = new System.Drawing.Point(131, 31);
+            this.step_end_TAA.Name = "step_end_TAA";
+            this.step_end_TAA.Size = new System.Drawing.Size(66, 13);
+            this.step_end_TAA.TabIndex = 1;
+            this.step_end_TAA.Text = "Конец шага";
+            // 
+            // step_start_TAA
+            // 
+            this.step_start_TAA.AutoSize = true;
+            this.step_start_TAA.Location = new System.Drawing.Point(25, 31);
+            this.step_start_TAA.Name = "step_start_TAA";
+            this.step_start_TAA.Size = new System.Drawing.Size(64, 13);
+            this.step_start_TAA.TabIndex = 0;
+            this.step_start_TAA.Text = "Старт шага";
+            // 
+            // Groupbox_output_TAA
+            // 
+            this.Groupbox_output_TAA.Controls.Add(this.textBox_output_TAA);
+            this.Groupbox_output_TAA.Controls.Add(this.label_result_TAA);
+            this.Groupbox_output_TAA.Location = new System.Drawing.Point(566, 29);
+            this.Groupbox_output_TAA.Name = "Groupbox_output_TAA";
+            this.Groupbox_output_TAA.Size = new System.Drawing.Size(222, 409);
+            this.Groupbox_output_TAA.TabIndex = 2;
+            this.Groupbox_output_TAA.TabStop = false;
+            this.Groupbox_output_TAA.Text = "Вывод данных";
+            // 
+            // textBox_output_TAA
+            // 
+            this.textBox_output_TAA.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox_output_TAA.Location = new System.Drawing.Point(9, 31);
+            this.textBox_output_TAA.Multiline = true;
+            this.textBox_output_TAA.Name = "textBox_output_TAA";
+            this.textBox_output_TAA.ReadOnly = true;
+            this.textBox_output_TAA.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox_output_TAA.Size = new System.Drawing.Size(207, 372);
+            this.textBox_output_TAA.TabIndex = 1;
+            // 
+            // label_result_TAA
+            // 
+            this.label_result_TAA.AutoSize = true;
+            this.label_result_TAA.Location = new System.Drawing.Point(6, 16);
+            this.label_result_TAA.Name = "label_result_TAA";
+            this.label_result_TAA.Size = new System.Drawing.Size(62, 13);
+            this.label_result_TAA.TabIndex = 0;
+            this.label_result_TAA.Text = "Результат:";
             // 
             // FormMain_TAA
             // 
@@ -191,15 +191,17 @@ namespace Tyuiu.TitkovAA.Sprint6.Task1.V29
             this.Controls.Add(this.Groupbox_output_TAA);
             this.Controls.Add(this.groupBox_Input_TAA);
             this.Controls.Add(this.groupBox_Task_TAA);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain_TAA";
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск1 | Вариант 29 | Титков А. А.";
             this.groupBox_Task_TAA.ResumeLayout(false);
             this.groupBox_Task_TAA.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Function_TAA)).EndInit();
             this.groupBox_Input_TAA.ResumeLayout(false);
             this.groupBox_Input_TAA.PerformLayout();
             this.Groupbox_output_TAA.ResumeLayout(false);
             this.Groupbox_output_TAA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Function_TAA)).EndInit();
             this.ResumeLayout(false);
 
         }
