@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using Tyuiu.TitkovAA.Sprint6.V18.Lib;
-namespace Tyuiu.TitkovAA.Sprint6.V18
+using Tyuiu.TitkovAA.Sprint6.Task0.V18.Lib;
+namespace Tyuiu.TitkovAA.Sprint6.Task0.V18
 {
     public partial class FormMain_TAA : Form
     {

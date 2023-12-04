@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using tyuiu.cources.programming.interfaces.Sprint6;
-namespace Tyuiu.TitkovAA.Sprint6.V18.Lib
+namespace Tyuiu.TitkovAA.Sprint6.Task0.V18.Lib
 {
     public class DataService : ISprint6Task0V18
     {

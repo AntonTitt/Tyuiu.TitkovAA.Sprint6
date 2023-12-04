@@ -1,5 +1,5 @@
 ﻿
-namespace Tyuiu.TitkovAA.Sprint6.V18
+namespace Tyuiu.TitkovAA.Sprint6.Task0.V18
 {
     partial class FormMain_TAA
     {
