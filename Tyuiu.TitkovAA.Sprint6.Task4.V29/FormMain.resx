@@ -117,4 +117,75 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBoxTask_TAA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="textBoxTask_TAA.Text" xml:space="preserve">
+    <value>Протабулировать функцию                                                                                               на заданном диапазоне от                                                                                               -5 до 5. Результат вывести в                                                                                      textBox, построить график функции и сохранить в файл OutputFile.txt по кнопке</value>
+  </data>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
