@@ -59,5 +59,10 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
 
             }
         }
+
+        private void chart_Function_TAA_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

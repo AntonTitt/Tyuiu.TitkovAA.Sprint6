@@ -80,6 +80,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             // textBox_Task_TAA
             // 
             this.textBox_Task_TAA.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_Task_TAA.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox_Task_TAA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox_Task_TAA.Location = new System.Drawing.Point(17, 31);
             this.textBox_Task_TAA.Multiline = true;
@@ -188,6 +189,7 @@ namespace Tyuiu.TitkovAA.Sprint6.Task2.V19
             this.chart_Function_TAA.Size = new System.Drawing.Size(478, 394);
             this.chart_Function_TAA.TabIndex = 1;
             this.chart_Function_TAA.Text = "chart1";
+            this.chart_Function_TAA.Click += new System.EventHandler(this.chart_Function_TAA_Click);
             // 
             // dataGridView_out_TAA
             // 
