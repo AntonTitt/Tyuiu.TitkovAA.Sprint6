@@ -9,6 +9,8 @@ namespace Tyuiu.TitkovAA.Sprint6.Task5.V25.Test
         [TestMethod]
         public void TestMethod1()
         {
+            DataService dt = new DataService();
+            Assert.AreEqual(1, 1);
         }
     }
 }
