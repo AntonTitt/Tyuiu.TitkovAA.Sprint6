@@ -65,5 +65,26 @@ namespace Tyuiu.TitkovAA.Sprint6.Task5.V25
         {
             MessageBox.Show("Task4 выполнил студент группы РПСб 23-1 Титков Антон Алексеевич", "Сообщение", MessageBoxButtons.OK);
         }
+
+        private void mouseleaveEx_TAA(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.LightGreen;
+        }
+
+        private void mouseenterEx_TAA(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.Green;
+        }
+
+        private void mouseenterOpen_TAA(object sender, EventArgs e)
+        {
+            buttonOpen_TAA.BackColor = Color.LightBlue;
+        }
+
+        private void mouseleaveOpen_TAA(object sender, EventArgs e)
+        {
+            buttonOpen_TAA.BackColor = Color.LightSkyBlue;
+        }
     }
 }
+
